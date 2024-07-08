@@ -32,8 +32,8 @@
 #define ESP_PANEL_LCD_NAME          ST7796
 
 /* LCD resolution in pixels */
-#define ESP_PANEL_LCD_WIDTH         (480)
-#define ESP_PANEL_LCD_HEIGHT        (320)
+#define ESP_PANEL_LCD_WIDTH         (320)
+#define ESP_PANEL_LCD_HEIGHT        (480)
 
 /* LCD Bus Settings */
 /**
@@ -211,8 +211,8 @@
 #define ESP_PANEL_LCD_INEVRT_COLOR  (1)         // 0/1
 
 /* LCD Transformation Flags */
-#define ESP_PANEL_LCD_SWAP_XY       (1)         // 0/1
-#define ESP_PANEL_LCD_MIRROR_X      (0)         // 0/1
+#define ESP_PANEL_LCD_SWAP_XY       (0)         // 0/1
+#define ESP_PANEL_LCD_MIRROR_X      (1)         // 0/1
 #define ESP_PANEL_LCD_MIRROR_Y      (0)         // 0/1
 
 /* LCD Other Settings */
